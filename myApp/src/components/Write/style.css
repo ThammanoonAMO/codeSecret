@@ -1,0 +1,115 @@
+.Post {
+    text-align: center;
+    background-image: url('./bgMain.jpg') ;
+    background-position: center center;
+    background-repeat:  repeat-x;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.bodyPost {
+    margin: 50px;
+}
+
+header {
+    color: #3d9ae2;
+}
+
+.noW {
+    white-space: nowrap;
+}
+
+.head {
+    width: 100%;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.leftH {
+    font-family: "OdinRounded-Bold", sans-serif;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 2vmin;
+}
+
+.txtEmail {
+    font-size: 5vmin;
+    margin: 0;
+    padding-left: 2vmin;
+}
+
+.profileLogo {
+    height: 5vmin;
+    width: 5vmin;
+}
+
+.setupLogo {
+    height: 5vmin;
+    width: 5vmin;
+    padding-left: 1vmin;
+}
+
+.lineLogo {
+    height: 6vmin;
+    vertical-align: middle;
+    margin-top: -2vmin;
+}
+
+.rightH {
+    height: 2vmin;
+    padding-top: 2vmin;
+    position: absolute;
+    top: 0;
+    right: 1vmin;
+}
+
+.app-link {
+    font-family: "OdinRounded-Bold", sans-serif;
+    color: #3d9ae2;
+    text-decoration: none;
+    font-size: 5vmin;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+}
+
+.fDiv {
+    padding-top: 5vmin;
+    position: relative;
+    padding-right: 2vmin;
+}
+
+.fInput {
+    font-family: "OdinRounded-Bold", sans-serif;
+    color: #bddbff;
+    font-size: 3vmin;
+    border-radius: 5px;
+    border-color: #3d9ae2;
+    border: 1.5px solid;
+    padding: 1.5vmin;
+    width: 100%;
+    margin-bottom: 1vmin;
+}
+
+.btn {
+    font-family: 'OdinRounded-Bold', sans-serif;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #bddbff;
+    color: #3d9ae2;
+    padding: 0px;
+    margin: 1vmin 20px 0 0;
+    cursor: pointer;
+    font-size: 4vmin;
+    border-color: #3d9ae2;
+    width: 20%;
+    height: 8vmin;
+}
+
+.btn:hover {
+    background-color: #3d9ae2;
+    color: white;
+}
