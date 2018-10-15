@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'OdinRounded-Bold';
+    font-weight: bold;
+    src: url('./OdinRounded-Bold.otf');
+}
+
+.title {
+    font-family: 'OdinRounded-Bold', sans-serif;
+    font-size: 10vmin;
+    color: #bddbff;
+    padding-bottom: 5vmin;
+    
+}
+
+.Home {
+    text-align: center;
+    background-image: url('./bgMain.jpg') ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+}
+
+.bodyBtn {
+    padding: 5vmin;
+}
+
+.App-logo {
+  height: 50vmin;
+  padding-top: 5vmin;
+}
+
+.btn {
+    font-family: 'OdinRounded-Bold', sans-serif;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #bddbff;
+    color: #3d9ae2;
+    padding: 0px;
+    cursor: pointer;
+    font-size: 5vmin;
+    border-color: #3d9ae2;
+    width: 25%;
+    height: 10vmin;
+}
+.btn:hover {
+    background-color: #3d9ae2;
+    color: white;
+}
+

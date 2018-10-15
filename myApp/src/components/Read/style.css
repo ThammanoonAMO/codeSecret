@@ -1,0 +1,148 @@
+.Read {
+    text-align: center;
+    background-image: url('./bgMain.jpg') ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.bodyRead {
+    margin: 50px;
+}
+
+header {
+    color: #3d9ae2;
+}
+
+h1 {
+    color: #707070;
+    font-size: 6vmin;
+    margin-bottom: -3vmin;
+}
+
+h2 {
+    color: #707070;
+    font-size: 5vmin;
+}
+
+h4 {
+    color: #ededed;
+    font-size: 3vmin;
+}
+
+.noW {
+    white-space: nowrap;
+}
+
+.head {
+    width: 100%;
+}
+
+.des {
+    color: #707070;
+    font-size: 3vmin;
+}
+
+.code {
+    color: #ededed;
+    font-size: 3vmin;
+    background-color: white;
+    padding: 5vmin;
+    border: 0.5px solid #707070;
+    border-radius: 7px;
+}
+
+.result {
+    color: #ededed;
+    font-size: 3vmin;
+    background-color: white;
+    padding: 3vmin;
+    border: 0.5px solid #707070;
+    border-radius: 7px;
+    margin-top: 14vmin;
+    vertical-align: top;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.leftH {
+    font-family: "OdinRounded-Bold", sans-serif;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 2vmin;
+}
+
+.txtEmail {
+    font-size: 5vmin;
+    margin: 0;
+    padding-left: 2vmin;
+}
+
+.profileLogo {
+    height: 5vmin;
+    width: 5vmin;
+}
+
+.setupLogo {
+    height: 5vmin;
+    width: 5vmin;
+    padding-left: 1vmin;
+}
+
+.lineLogo {
+    height: 6vmin;
+    vertical-align: middle;
+    margin-top: -2vmin;
+}
+
+.rightH {
+    height: 2vmin;
+    padding-top: 2vmin;
+    position: absolute;
+    top: 0;
+    right: 1vmin;
+}
+
+.app-link {
+    font-family: "OdinRounded-Bold", sans-serif;
+    color: #3d9ae2;
+    text-decoration: none;
+    font-size: 5vmin;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+}
+
+.fDiv {
+    font-family: "OdinRounded-Bold", sans-serif;
+    padding-top: 5vmin;
+    position: relative;
+    padding-right: 2vmin;
+    left: 0;
+}
+
+.btnCompile {
+    font-family: 'OdinRounded-Bold', sans-serif;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    background-color: white;
+    color: #707070;
+    padding: 0px;
+    margin: 3vmin 0 0 0;
+    cursor: pointer;
+    font-size: 4vmin;
+    border-color: #707070;
+    width: 20%;
+    height: 8vmin;
+    position: absolute;
+    right: 13px;
+}
+
+.btnCompile:hover {
+    background-color: #707070;
+    color: white;
+}
