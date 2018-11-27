@@ -1,7 +1,11 @@
 
-body, html {
+.homeLogin {
   background: url("bg/bg-login.jpg")no-repeat center center fixed;
   background-size: cover;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
   height: 100%;
   overflow: hidden;
   color: #3d9ae2;
@@ -47,6 +51,7 @@ body, html {
   font-family: 'OdinRounded', sans-serif;
   width: 295px;
   border-radius: 50px;
+
 
 } 
 .login input[type=submit]:hover {

@@ -4,6 +4,7 @@ import './Register.css';
 class Register extends Component {
   render() {
     return (
+      <div class="homeReg">
       <div class="login wrap">
       <h2><center>REGISTER</center></h2>
       <center>
@@ -14,6 +15,7 @@ class Register extends Component {
       <input type="submit" value="CANCEL" />
       </center>  
       </div> 
+      </div>
     );
   }
 }
