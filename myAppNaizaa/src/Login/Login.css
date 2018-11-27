@@ -1,0 +1,65 @@
+
+body, html {
+  background: url("bg/bg-login.jpg")no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  color: #3d9ae2;
+  font-family: 'OdinRounded', sans-serif;
+  font-size: 45px;
+
+}
+@font-face {
+    font-family: OdinRounded;
+    src: url(font/OdinRounded-Bold.otf);
+    font-weight: bold;
+}
+::placeholder{
+  color: #ededed;
+}
+
+.login {
+  margin-top: 15vh;
+}
+.login input[type=text],
+.login input[type=password] {
+  display: block;
+  border: 2px solid black;
+  border-color: #3d9ae2;
+  color: black;
+  padding: 10px 30px;
+  margin: 20px 0 auto;
+  font-size: 35px;
+  font-family: 'OdinRounded', sans-serif;
+  border-radius: 50px;
+  padding-left: 70px;
+}
+
+.login input[type=submit],
+.login input[type=button] {
+  border: 2px solid black;
+  border-color: #3d9ae2;
+  padding: 10px;
+  margin: 20px 10px 0 0;
+  font-size: 35px;
+  color: #3d9ae2;
+  background: #bddbff;
+  font-family: 'OdinRounded', sans-serif;
+  width: 295px;
+  border-radius: 50px;
+
+} 
+.login input[type=submit]:hover {
+  background-color: #3d9ae2;
+  color: white;
+}
+.login input[type=button]:hover{
+  background-color: #3d9ae2;
+  color: white;
+}
+#bgemail {
+  background: white url("icon/envelope2.png")  no-repeat 5% center;
+}
+#bgpass {
+  background: white url("icon/locked-padlock2.png")  no-repeat 5% center;
+}
