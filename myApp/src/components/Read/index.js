@@ -13,9 +13,6 @@ class App extends Component {
                 <div className="leftH noW">
                 <img src={profile} className="profileLogo" alt="logo" />
                 <h2 className="txtEmail inline">user@email.com</h2>
-                <a href="http://localhost:3000">
-                <img src={setup} className="setupLogo" alt="logo" />
-                </a>
                 </div>
                 <div className="rightH noW">
                 <a href="http://localhost:3000" className="app-link">HOME</a>
