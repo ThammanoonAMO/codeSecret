@@ -1,6 +1,6 @@
 
 .homeSet {
-  background: url("bg/bg-setting.jpg")no-repeat center center fixed;
+  background: url("bg/bg-1920x1080.jpg")no-repeat center center fixed;
   background-size: cover;
   position: absolute;
   z-index: -1;
@@ -76,29 +76,33 @@
     font-family: "OdinRounded", sans-serif;
     color: #3d9ae2;
     text-decoration: none;
-    font-size: 5vmin;
+    font-size: 4vmin;
     padding-left: 1vmin;
-    padding-right: 1vmin;
+    padding-right: 3vmin;
     height: 2vmin;
-    padding-top: 2vmin;
+    padding-top: 3vmin;
     position: absolute;
     top: 0;
     right: 1vmin;
     white-space: nowrap;
 }
-.linehome {
+.lineWrite {
     font-family: "OdinRounded", sans-serif;
-    color: #3d9ae2;
     text-decoration: none;
-    font-size: 5vmin;
-    padding-left: 1vmin;
-    padding-right: 25vmin;
-    height: 2vmin;
-    padding-top: 2vmin;
+    font-size: 4vmin;
+    height: center;
     position: absolute;
     top: 0;
     right: 1vmin;
     white-space: nowrap;
+    border: 2px solid black;
+    border-color: #3d9ae2;
+    padding: 3px;
+    margin: 15px 150px;
+    color: #3d9ae2;
+    background: #bddbff;
+    width: 120px;
+    border-radius: 50px;
 }
 .lineLogo {
     height: 6vmin;
@@ -107,3 +111,81 @@
     display: inline-block;
 }
 
+.inline {
+    display: inline-block;
+}
+
+.txtEmail {
+    font-size: 5vmin;
+    margin: 0;
+    color: #3d9ae2;
+    text-decoration: none;
+    padding-left: 1vmin;
+    padding-right: 5vmin;
+    height: 2vmin;
+    padding-top: 2vmin;
+    position: absolute;
+    top: 0;
+    left: 8vmin;
+    white-space: nowrap;
+}
+
+.profileLogo {
+    height: 5vmin;
+    width: 5vmin;
+    margin: 0;
+    color: #3d9ae2;
+    padding-left: 1vmin;
+    padding-right: 5vmin;
+    padding-top: 2vmin;
+    position: absolute;
+    top: 0px;
+    left: 2vmin;
+    white-space: nowrap;
+}
+
+.bodyRead {
+    margin: 30px;
+    width: 50%;
+
+
+}
+.result {
+    color: #bddbff;
+    font-family: "OdinRounded", sans-serif;
+    font-size: 3vmin;
+    background-color: white;
+    padding: 5vmin;
+    padding-top: 2vmin;
+    padding-bottom: 20vmin;
+    border: 0.5px solid #707070;
+    border-radius: 7px;
+    margin-top: 4vmin;
+
+
+}
+h2 {
+    color: #3d9ae2;
+    font-size: 5vmin;
+    margin-top: 2vmin;
+}
+h3 {
+    color: #474747;
+    font-size: 3vmin;
+    margin-bottom: -18vmin;
+}
+.read {
+    font-family: "OdinRounded", sans-serif;
+    text-decoration: none;
+    font-size: 4vmin;
+    position: absolute;
+    white-space: nowrap;
+    right: 50%;
+    top: 45%;
+    border: 2px solid black;
+    border-color: #EDEDED;
+    padding: 2px;
+    color: #EDEDED;
+    background: #ffffff;
+    border-radius: 50px;
+}

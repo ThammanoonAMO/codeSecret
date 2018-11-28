@@ -4,8 +4,8 @@ import './Setting.css';
 class Setting extends Component {
 render() {
 return (
-
-<div class="login wrap">
+  <div class="homeSet">
+  <div class="login wrap">
   <a href="#" className="app-link"></a>
   <a href="#" className="linelog">LOG OUT</a>
   <a href="#" className="linehome">HOME</a>
@@ -18,7 +18,8 @@ return (
     <input type="button" href="#" value="SAVE" />
     <input type="submit" href="#" value="CANCEL" />
   </center>  
-</div> 
+  </div> 
+  </div>
 );
 }
 }

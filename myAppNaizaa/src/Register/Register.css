@@ -1,7 +1,11 @@
 
-body, html {
+.homeReg {
   background: url("bg/bg-register.jpg")no-repeat center center fixed;
   background-size: cover;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
   height: 100%;
   overflow: hidden;
   color: #3d9ae2;
